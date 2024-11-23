@@ -89,7 +89,7 @@ class MainPresenter: NSObject, MMLANScannerDelegate {
         }
 
         let ipSortDescriptor = NSSortDescriptor(key: "ipAddress", ascending: true)
-        self.connectedDevices = (self.connectedDevices as NSArray).sortedArray(using: [ipSortDescriptor]) as! Array
+        self.connectedDevices = (self.connectedDevices as NSArray).sortedArray(using: [ipSortDescriptor]) as? Array
     }
     
     func lanScanDidFailedToScan() {
