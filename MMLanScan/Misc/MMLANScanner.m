@@ -9,8 +9,8 @@
 #import "PingOperation.h"
 #import "MMLANScanner.h"
 #import "MACOperation.h"
-#import "MacFinder.h"
-#import "MMDevice.h"
+#import "../External Libs/MacFinder/MacFinder.h"
+#import "../Objects/MMDevice.h"
 
 @interface MMLANScanner ()
 @property (nonatomic,strong) MMDevice *device;

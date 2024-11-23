@@ -8,7 +8,7 @@
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import "NetworkCalculator.h"
 #import "LANProperties.h"
-#import "MMDevice.h"
+#import "../Objects/MMDevice.h"
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 #include <netdb.h>

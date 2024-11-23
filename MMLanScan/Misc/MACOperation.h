@@ -5,7 +5,7 @@
 //  Copyright © 2016 Miksoft. All rights reserved.
 //
 
-#import "SimplePing.h"
+#import "../External Libs/SimplePing/SimplePing.h"
 
 @class MMDevice;
 

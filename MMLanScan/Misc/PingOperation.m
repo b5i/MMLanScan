@@ -7,9 +7,9 @@
 //
 
 #import "PingOperation.h"
-#import "MMDevice.h"
+#import "../Objects/MMDevice.h"
 #import "LANProperties.h"
-#import "MacFinder.h"
+#import "../External Libs/MacFinder/MacFinder.h"
 
 static const float PING_TIMEOUT = 1;
 

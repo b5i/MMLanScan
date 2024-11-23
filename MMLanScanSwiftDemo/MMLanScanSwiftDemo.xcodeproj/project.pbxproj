@@ -3,49 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		274DE7741DCF2C6C00C6E09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274DE7731DCF2C6C00C6E09A /* Assets.xcassets */; };
-		274DE7951DCF2CD900C6E09A /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7851DCF2CD900C6E09A /* LANProperties.m */; };
-		274DE7961DCF2CD900C6E09A /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7871DCF2CD900C6E09A /* MacFinder.m */; };
-		274DE7971DCF2CD900C6E09A /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7891DCF2CD900C6E09A /* MACOperation.m */; };
-		274DE7991DCF2CDA00C6E09A /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE78D1DCF2CD900C6E09A /* NetworkCalculator.m */; };
-		274DE79A1DCF2CDA00C6E09A /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE78F1DCF2CD900C6E09A /* PingOperation.m */; };
-		274DE79B1DCF2CDA00C6E09A /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7921DCF2CD900C6E09A /* SimplePing.m */; };
-		274DE7AC1DCF3AF400C6E09A /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7AB1DCF3AF400C6E09A /* MMLANScanner.m */; };
-		27603A6B1E3AAF7700F17DB5 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27603A6A1E3AAF7700F17DB5 /* data.plist */; };
-		27F0DFD21F1065E40043C777 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0DFD11F1065E40043C777 /* MMDevice.m */; };
 		340141B12CF1E743002D26C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340141B02CF1E73E002D26C7 /* ContentView.swift */; };
 		340141B32CF1EADA002D26C7 /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340141B22CF1EAD7002D26C7 /* ScannerModel.swift */; };
+		3401A3A92CF205F100C8ACFF /* MMLanScan in Frameworks */ = {isa = PBXBuildFile; productRef = 3401A3A82CF205F100C8ACFF /* MMLanScan */; };
+		3401A3AC2CF2064B00C8ACFF /* MMLanScan in Frameworks */ = {isa = PBXBuildFile; productRef = 3401A3AB2CF2064B00C8ACFF /* MMLanScan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		270DD9F91E4653A20041A61B /* if_arp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
-		270DD9FA1E4653A20041A61B /* if_ether.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
-		270DD9FB1E4653A20041A61B /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		274DE7691DCF2C6C00C6E09A /* MMLanScanSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMLanScanSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		274DE7731DCF2C6C00C6E09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274DE7781DCF2C6C00C6E09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		274DE7841DCF2CD900C6E09A /* LANProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LANProperties.h; path = ../../MMLanScan/Misc/LANProperties.h; sourceTree = "<group>"; };
-		274DE7851DCF2CD900C6E09A /* LANProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LANProperties.m; path = ../../MMLanScan/Misc/LANProperties.m; sourceTree = "<group>"; };
-		274DE7861DCF2CD900C6E09A /* MacFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacFinder.h; path = "../MMLanScan/External Libs/MacFinder/MacFinder.h"; sourceTree = SOURCE_ROOT; };
-		274DE7871DCF2CD900C6E09A /* MacFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacFinder.m; path = "../MMLanScan/External Libs/MacFinder/MacFinder.m"; sourceTree = SOURCE_ROOT; };
-		274DE7881DCF2CD900C6E09A /* MACOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACOperation.h; path = ../../MMLanScan/Misc/MACOperation.h; sourceTree = "<group>"; };
-		274DE7891DCF2CD900C6E09A /* MACOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACOperation.m; path = ../../MMLanScan/Misc/MACOperation.m; sourceTree = "<group>"; };
-		274DE78C1DCF2CD900C6E09A /* NetworkCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkCalculator.h; path = ../../MMLanScan/Misc/NetworkCalculator.h; sourceTree = "<group>"; };
-		274DE78D1DCF2CD900C6E09A /* NetworkCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkCalculator.m; path = ../../MMLanScan/Misc/NetworkCalculator.m; sourceTree = "<group>"; };
-		274DE78E1DCF2CD900C6E09A /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingOperation.h; path = ../../MMLanScan/Misc/PingOperation.h; sourceTree = "<group>"; };
-		274DE78F1DCF2CD900C6E09A /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingOperation.m; path = ../../MMLanScan/Misc/PingOperation.m; sourceTree = "<group>"; };
-		274DE7911DCF2CD900C6E09A /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
-		274DE7921DCF2CD900C6E09A /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
-		274DE7AA1DCF3AF400C6E09A /* MMLANScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMLANScanner.h; path = ../../MMLanScan/Misc/MMLANScanner.h; sourceTree = "<group>"; };
-		274DE7AB1DCF3AF400C6E09A /* MMLANScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMLANScanner.m; path = ../../MMLanScan/Misc/MMLANScanner.m; sourceTree = "<group>"; };
-		274DE7AD1DCF3C6D00C6E09A /* MMLANScan-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMLANScan-Bridging-Header.h"; sourceTree = "<group>"; };
-		27603A6A1E3AAF7700F17DB5 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		27F0DFD01F1065E40043C777 /* MMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDevice.h; sourceTree = "<group>"; };
-		27F0DFD11F1065E40043C777 /* MMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDevice.m; sourceTree = "<group>"; };
 		340141B02CF1E73E002D26C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		340141B22CF1EAD7002D26C7 /* ScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,52 +27,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3401A3A92CF205F100C8ACFF /* MMLanScan in Frameworks */,
+				3401A3AC2CF2064B00C8ACFF /* MMLanScan in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		270DD9F71E4653500041A61B /* MacFinder */ = {
-			isa = PBXGroup;
-			children = (
-				270DD9F81E4653720041A61B /* Network Headers */,
-				274DE7861DCF2CD900C6E09A /* MacFinder.h */,
-				274DE7871DCF2CD900C6E09A /* MacFinder.m */,
-			);
-			name = MacFinder;
-			path = "../MMLanScan/External Libs/MacFinder";
-			sourceTree = SOURCE_ROOT;
-		};
-		270DD9F81E4653720041A61B /* Network Headers */ = {
-			isa = PBXGroup;
-			children = (
-				270DD9F91E4653A20041A61B /* if_arp.h */,
-				270DD9FA1E4653A20041A61B /* if_ether.h */,
-				270DD9FB1E4653A20041A61B /* route.h */,
-			);
-			path = "Network Headers";
-			sourceTree = "<group>";
-		};
-		270DD9FC1E4653D20041A61B /* Simple Ping */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7911DCF2CD900C6E09A /* SimplePing.h */,
-				274DE7921DCF2CD900C6E09A /* SimplePing.m */,
-			);
-			name = "Simple Ping";
-			path = "../MMLanScan/External Libs/SimplePing";
-			sourceTree = SOURCE_ROOT;
-		};
-		270DDA021E4656F20041A61B /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				27603A6A1E3AAF7700F17DB5 /* data.plist */,
-			);
-			name = Data;
-			path = ../MMLanScan/Data;
-			sourceTree = SOURCE_ROOT;
-		};
 		274DE7601DCF2C6B00C6E09A = {
 			isa = PBXGroup;
 			children = (
@@ -122,9 +56,6 @@
 			children = (
 				340141B22CF1EAD7002D26C7 /* ScannerModel.swift */,
 				340141B02CF1E73E002D26C7 /* ContentView.swift */,
-				274DE79E1DCF2D3E00C6E09A /* Objects */,
-				274DE79F1DCF2D5000C6E09A /* Libraries */,
-				820A7F6C1DD08A2300EF11EA /* Bridging Header */,
 				820A7F6D1DD08A5E00EF11EA /* Supporting Files */,
 			);
 			path = MMLanScanSwiftDemo;
@@ -135,69 +66,6 @@
 			children = (
 			);
 			name = OUI;
-			sourceTree = "<group>";
-		};
-		274DE79E1DCF2D3E00C6E09A /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				27F0DFD01F1065E40043C777 /* MMDevice.h */,
-				27F0DFD11F1065E40043C777 /* MMDevice.m */,
-			);
-			name = Objects;
-			path = ../MMLanScan/Objects;
-			sourceTree = SOURCE_ROOT;
-		};
-		274DE79F1DCF2D5000C6E09A /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				270DDA021E4656F20041A61B /* Data */,
-				274DE7A01DCF2D5800C6E09A /* LAN Scan Libs */,
-				274DE7A11DCF2D7900C6E09A /* Operations */,
-				274DE7A21DCF2D8A00C6E09A /* External Libs */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		274DE7A01DCF2D5800C6E09A /* LAN Scan Libs */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7AA1DCF3AF400C6E09A /* MMLANScanner.h */,
-				274DE7AB1DCF3AF400C6E09A /* MMLANScanner.m */,
-				274DE7841DCF2CD900C6E09A /* LANProperties.h */,
-				274DE7851DCF2CD900C6E09A /* LANProperties.m */,
-				274DE78C1DCF2CD900C6E09A /* NetworkCalculator.h */,
-				274DE78D1DCF2CD900C6E09A /* NetworkCalculator.m */,
-			);
-			name = "LAN Scan Libs";
-			sourceTree = "<group>";
-		};
-		274DE7A11DCF2D7900C6E09A /* Operations */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7881DCF2CD900C6E09A /* MACOperation.h */,
-				274DE7891DCF2CD900C6E09A /* MACOperation.m */,
-				274DE78E1DCF2CD900C6E09A /* PingOperation.h */,
-				274DE78F1DCF2CD900C6E09A /* PingOperation.m */,
-			);
-			name = Operations;
-			sourceTree = "<group>";
-		};
-		274DE7A21DCF2D8A00C6E09A /* External Libs */ = {
-			isa = PBXGroup;
-			children = (
-				270DD9FC1E4653D20041A61B /* Simple Ping */,
-				270DD9F71E4653500041A61B /* MacFinder */,
-			);
-			name = "External Libs";
-			path = "../MMLanScan/External Libs";
-			sourceTree = SOURCE_ROOT;
-		};
-		820A7F6C1DD08A2300EF11EA /* Bridging Header */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7AD1DCF3C6D00C6E09A /* MMLANScan-Bridging-Header.h */,
-			);
-			name = "Bridging Header";
 			sourceTree = "<group>";
 		};
 		820A7F6D1DD08A5E00EF11EA /* Supporting Files */ = {
@@ -257,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 274DE7601DCF2C6B00C6E09A;
+			packageReferences = (
+				3401A3AA2CF2064B00C8ACFF /* XCLocalSwiftPackageReference "../../MMLanScan" */,
+			);
 			productRefGroup = 274DE76A1DCF2C6C00C6E09A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				274DE7741DCF2C6C00C6E09A /* Assets.xcassets in Resources */,
-				27603A6B1E3AAF7700F17DB5 /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274DE7991DCF2CDA00C6E09A /* NetworkCalculator.m in Sources */,
-				274DE79B1DCF2CDA00C6E09A /* SimplePing.m in Sources */,
-				274DE7951DCF2CD900C6E09A /* LANProperties.m in Sources */,
-				274DE7971DCF2CD900C6E09A /* MACOperation.m in Sources */,
-				274DE7AC1DCF3AF400C6E09A /* MMLANScanner.m in Sources */,
-				274DE7961DCF2CD900C6E09A /* MacFinder.m in Sources */,
-				27F0DFD21F1065E40043C777 /* MMDevice.m in Sources */,
 				340141B32CF1EADA002D26C7 /* ScannerModel.swift in Sources */,
 				340141B12CF1E743002D26C7 /* ContentView.swift in Sources */,
-				274DE79A1DCF2CDA00C6E09A /* PingOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +294,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miksoft.MMLanScanSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "MMLANScanSwiftDemo/MMLANScan-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -457,7 +318,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miksoft.MMLanScanSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "MMLANScanSwiftDemo/MMLANScan-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
@@ -486,6 +346,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3401A3AA2CF2064B00C8ACFF /* XCLocalSwiftPackageReference "../../MMLanScan" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../MMLanScan;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3401A3A72CF205F100C8ACFF /* XCRemoteSwiftPackageReference "MMLanScan" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/b5i/MMLanScan";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3401A3A82CF205F100C8ACFF /* MMLanScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3401A3A72CF205F100C8ACFF /* XCRemoteSwiftPackageReference "MMLanScan" */;
+			productName = MMLanScan;
+		};
+		3401A3AB2CF2064B00C8ACFF /* MMLanScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MMLanScan;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 274DE7611DCF2C6B00C6E09A /* Project object */;
 }

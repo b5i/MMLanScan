@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 
 #if TARGET_IPHONE_SIMULATOR
-#include "route.h"
+#include "Network Headers/route.h"
 #else
-#include "route.h"
+#include "Network Headers/route.h"
 #endif
 
-#include "if_ether.h"
+#include "Network Headers/if_ether.h"
 #include <arpa/inet.h>
 
 @interface MacFinder : NSObject;

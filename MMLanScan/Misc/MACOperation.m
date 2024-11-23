@@ -7,8 +7,8 @@
 
 #import "MACOperation.h"
 #import "LANProperties.h"
-#import "MacFinder.h"
-#import "MMDevice.h"
+#import "../External Libs/MacFinder/MacFinder.h"
+#import "../Objects/MMDevice.h"
 
 @interface MACOperation ()
 @property (nonatomic,strong) NSString *ipStr;

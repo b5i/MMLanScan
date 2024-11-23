@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
+import MMLanScan
 
 class ScannerModel: NSObject, ObservableObject, MMLANScannerDelegate {
     static let shared = ScannerModel()
