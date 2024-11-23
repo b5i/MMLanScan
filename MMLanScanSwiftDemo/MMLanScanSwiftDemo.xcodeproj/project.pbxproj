@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		274DE76D1DCF2C6C00C6E09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DE76C1DCF2C6C00C6E09A /* AppDelegate.swift */; };
-		274DE7721DCF2C6C00C6E09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274DE7701DCF2C6C00C6E09A /* Main.storyboard */; };
 		274DE7741DCF2C6C00C6E09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274DE7731DCF2C6C00C6E09A /* Assets.xcassets */; };
-		274DE7771DCF2C6C00C6E09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274DE7751DCF2C6C00C6E09A /* LaunchScreen.storyboard */; };
 		274DE7951DCF2CD900C6E09A /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7851DCF2CD900C6E09A /* LANProperties.m */; };
 		274DE7961DCF2CD900C6E09A /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7871DCF2CD900C6E09A /* MacFinder.m */; };
 		274DE7971DCF2CD900C6E09A /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7891DCF2CD900C6E09A /* MACOperation.m */; };
 		274DE7991DCF2CDA00C6E09A /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE78D1DCF2CD900C6E09A /* NetworkCalculator.m */; };
 		274DE79A1DCF2CDA00C6E09A /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE78F1DCF2CD900C6E09A /* PingOperation.m */; };
 		274DE79B1DCF2CDA00C6E09A /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7921DCF2CD900C6E09A /* SimplePing.m */; };
-		274DE7A51DCF2DE200C6E09A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7A41DCF2DE200C6E09A /* MainVC.swift */; };
-		274DE7A71DCF2E1200C6E09A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7A61DCF2E1200C6E09A /* MainPresenter.swift */; };
 		274DE7AC1DCF3AF400C6E09A /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7AB1DCF3AF400C6E09A /* MMLANScanner.m */; };
-		274DE7F21DCFE52200C6E09A /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DE7F11DCFE52200C6E09A /* DeviceCell.swift */; };
 		27603A6B1E3AAF7700F17DB5 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27603A6A1E3AAF7700F17DB5 /* data.plist */; };
 		27F0DFD21F1065E40043C777 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0DFD11F1065E40043C777 /* MMDevice.m */; };
+		340141B12CF1E743002D26C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340141B02CF1E73E002D26C7 /* ContentView.swift */; };
+		340141B32CF1EADA002D26C7 /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340141B22CF1EAD7002D26C7 /* ScannerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +26,7 @@
 		270DD9FA1E4653A20041A61B /* if_ether.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
 		270DD9FB1E4653A20041A61B /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		274DE7691DCF2C6C00C6E09A /* MMLanScanSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMLanScanSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		274DE76C1DCF2C6C00C6E09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		274DE7711DCF2C6C00C6E09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		274DE7731DCF2C6C00C6E09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		274DE7761DCF2C6C00C6E09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		274DE7781DCF2C6C00C6E09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274DE7841DCF2CD900C6E09A /* LANProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LANProperties.h; path = ../../MMLanScan/Misc/LANProperties.h; sourceTree = "<group>"; };
 		274DE7851DCF2CD900C6E09A /* LANProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LANProperties.m; path = ../../MMLanScan/Misc/LANProperties.m; sourceTree = "<group>"; };
@@ -47,15 +40,14 @@
 		274DE78F1DCF2CD900C6E09A /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingOperation.m; path = ../../MMLanScan/Misc/PingOperation.m; sourceTree = "<group>"; };
 		274DE7911DCF2CD900C6E09A /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
 		274DE7921DCF2CD900C6E09A /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
-		274DE7A41DCF2DE200C6E09A /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		274DE7A61DCF2E1200C6E09A /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		274DE7AA1DCF3AF400C6E09A /* MMLANScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMLANScanner.h; path = ../../MMLanScan/Misc/MMLANScanner.h; sourceTree = "<group>"; };
 		274DE7AB1DCF3AF400C6E09A /* MMLANScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMLANScanner.m; path = ../../MMLanScan/Misc/MMLANScanner.m; sourceTree = "<group>"; };
 		274DE7AD1DCF3C6D00C6E09A /* MMLANScan-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMLANScan-Bridging-Header.h"; sourceTree = "<group>"; };
-		274DE7F11DCFE52200C6E09A /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 		27603A6A1E3AAF7700F17DB5 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		27F0DFD01F1065E40043C777 /* MMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDevice.h; sourceTree = "<group>"; };
 		27F0DFD11F1065E40043C777 /* MMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDevice.m; sourceTree = "<group>"; };
+		340141B02CF1E73E002D26C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		340141B22CF1EAD7002D26C7 /* ScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,14 +120,12 @@
 		274DE76B1DCF2C6C00C6E09A /* MMLanScanSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				274DE79D1DCF2D3800C6E09A /* MainVC */,
+				340141B22CF1EAD7002D26C7 /* ScannerModel.swift */,
+				340141B02CF1E73E002D26C7 /* ContentView.swift */,
 				274DE79E1DCF2D3E00C6E09A /* Objects */,
 				274DE79F1DCF2D5000C6E09A /* Libraries */,
 				820A7F6C1DD08A2300EF11EA /* Bridging Header */,
-				274DE7EE1DCFE45F00C6E09A /* Cells */,
-				274DE7A81DCF2E2700C6E09A /* Storyboards */,
 				820A7F6D1DD08A5E00EF11EA /* Supporting Files */,
-				274DE76C1DCF2C6C00C6E09A /* AppDelegate.swift */,
 			);
 			path = MMLanScanSwiftDemo;
 			sourceTree = "<group>";
@@ -145,15 +135,6 @@
 			children = (
 			);
 			name = OUI;
-			sourceTree = "<group>";
-		};
-		274DE79D1DCF2D3800C6E09A /* MainVC */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7A41DCF2DE200C6E09A /* MainVC.swift */,
-				274DE7A61DCF2E1200C6E09A /* MainPresenter.swift */,
-			);
-			name = MainVC;
 			sourceTree = "<group>";
 		};
 		274DE79E1DCF2D3E00C6E09A /* Objects */ = {
@@ -210,23 +191,6 @@
 			name = "External Libs";
 			path = "../MMLanScan/External Libs";
 			sourceTree = SOURCE_ROOT;
-		};
-		274DE7A81DCF2E2700C6E09A /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7701DCF2C6C00C6E09A /* Main.storyboard */,
-				274DE7751DCF2C6C00C6E09A /* LaunchScreen.storyboard */,
-			);
-			name = Storyboards;
-			sourceTree = "<group>";
-		};
-		274DE7EE1DCFE45F00C6E09A /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				274DE7F11DCFE52200C6E09A /* DeviceCell.swift */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
 		};
 		820A7F6C1DD08A2300EF11EA /* Bridging Header */ = {
 			isa = PBXGroup;
@@ -307,10 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274DE7771DCF2C6C00C6E09A /* LaunchScreen.storyboard in Resources */,
 				274DE7741DCF2C6C00C6E09A /* Assets.xcassets in Resources */,
 				27603A6B1E3AAF7700F17DB5 /* data.plist in Resources */,
-				274DE7721DCF2C6C00C6E09A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274DE7A51DCF2DE200C6E09A /* MainVC.swift in Sources */,
 				274DE7991DCF2CDA00C6E09A /* NetworkCalculator.m in Sources */,
 				274DE79B1DCF2CDA00C6E09A /* SimplePing.m in Sources */,
 				274DE7951DCF2CD900C6E09A /* LANProperties.m in Sources */,
@@ -329,39 +290,20 @@
 				274DE7AC1DCF3AF400C6E09A /* MMLANScanner.m in Sources */,
 				274DE7961DCF2CD900C6E09A /* MacFinder.m in Sources */,
 				27F0DFD21F1065E40043C777 /* MMDevice.m in Sources */,
-				274DE7A71DCF2E1200C6E09A /* MainPresenter.swift in Sources */,
-				274DE76D1DCF2C6C00C6E09A /* AppDelegate.swift in Sources */,
+				340141B32CF1EADA002D26C7 /* ScannerModel.swift in Sources */,
+				340141B12CF1E743002D26C7 /* ContentView.swift in Sources */,
 				274DE79A1DCF2CDA00C6E09A /* PingOperation.m in Sources */,
-				274DE7F21DCFE52200C6E09A /* DeviceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		274DE7701DCF2C6C00C6E09A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				274DE7711DCF2C6C00C6E09A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		274DE7751DCF2C6C00C6E09A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				274DE7761DCF2C6C00C6E09A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		274DE7791DCF2C6C00C6E09A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -422,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -481,7 +424,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDH78FDX85;
 				INFOPLIST_FILE = MMLanScanSwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDH78FDX85;
 				INFOPLIST_FILE = MMLanScanSwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
